@@ -1,0 +1,171 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+  background: #fff;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.green{
+  color: #8CBB75;
+  font-size: 40px;
+}
+
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+  .navbar-brand{
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px!important;
+  margin-bottom: 28px;
+  
+}
+
+.navbar-default{
+  background-color: #584b4f!important;
+  color:#efeae1!important;
+
+
+  
+}
+
+.navbar-default a{
+  font-size: 14px;
+  color:#efeae1!important;
+}
+
+.gutter:not(:first-child,:last-child) {
+  padding-right:2px;
+  
+}
+.mission{
+  text-align: center;
+}
+
+.gutter{
+  padding-bottom:18px;
+}
+
+.lead{
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+  text-align: center;
+
+}
+
+.jumbotron{
+  margin-top: -30px;
+}
+
+
+.card{
+  border-radius: .33em;
+  border-bottom: .2em solid rgba(0,0,0,.2);
+  padding: 9px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+  background: white;
+   -o-transition: all 200ms;
+   -moz-transition: all 200ms;
+   -webkit-transition: all 200ms;
+   transition: all 200ms;
+
+}
+
+
+.card-title{
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+
+.card:hover{
+  border-bottom: 2px solid #555;
+  background-color: whitesmoke;
+
+}
+
+.card a {
+  color:green;
+}
+
+
+.image{
+  border-radius: .2em;
+  box-sizing: border-box;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+*{box-sizing: border-box;}
+.flowGrid:before,.flowGrid:after{
+    content: "";
+    display: table;
+}
+.flowGrid:after{
+    clear:both;
+}
+.flowGridItem{ margin-bottom:10px;}
+.flowGridItem img{width:100%;}
+.flowGridColumn{
+    float: left;
+    padding-left: 10px;
+}
+.flowGridColumn:last-of-type{
+    padding-right: 10px;
+}

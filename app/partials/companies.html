@@ -1,0 +1,30 @@
+<!-- <div class="jumbotron">
+	<h1 class="lead">Discover the Best Subscription Box Services.</h1>
+</div>
+
+<div class="container">
+	<input ng-model="kw" placeholder="Find company..." class="form-control col-xs-10"></input><hr>
+	<input ng-model="n" class="form-control col-xs-2" placeholder="How many items to show?" type="number"></input>
+	<div class="row">
+		<div ng-repeat="company in data.companies 	| orderByPriority | filter:kw | limitTo:n"  class="col-md-4 gutter">
+			<div class="card">
+				<img src="http://placehold.it/350x150" width="100%">
+				<h3 class="card-title">{{ company.company }}</h3>
+				<p>{{ company.description | limitTo:30 }}</p>
+				<a href="http://www.twitter.com/{{ company.twitter }}">{{company.twitter}}</a>
+			
+			</div>
+		</div>
+	</div>
+	
+</div> -->
+
+
+<div class="container">
+<ul class="flowGrid" ng-flow-grid="homePageGird" min-item-width="200">
+    <li class="flowGridItem" ng-repeat="company in data.companies">
+        <h2>{{company.company}}</h2>
+        <p>{{ company.description | limitTo:500 }}</p>
+    </li>
+</ul>
+</div>

@@ -1,0 +1,10 @@
+{
+	"name": "cratewise",
+	"version": "0.1.0",
+	"description": "cratewise App",
+	"dependencies": {
+	    "bootstrap": "latest",
+	    "modernizr": "latest",
+	    "jquery": "1.11.0"
+	  }
+}
